@@ -146,6 +146,7 @@ func deposit(input string) {
 			delete(credit[i], user)
 			balance[i] += transferred
 		}
+
 		fmt.Println("Transferred $" + strconv.Itoa(transferred) + " to " + i)
 	}
 
